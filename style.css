@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.about-me,
+.skills,
+.projects,
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.skills ul,
+.projects,
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li,
+.projects,
+.contact li {
+    margin-bottom: 10px;
+}
+
+.project {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 1em;
+    }
+}
